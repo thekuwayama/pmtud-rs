@@ -1,5 +1,8 @@
 # pmtud-rs
 
+[![Build Status](https://travis-ci.org/thekuwayama/pmtud-rs.svg?branch=master)](https://travis-ci.org/thekuwayama/pmtud-rs)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/thekuwayama/pmtud-rs/master/LICENSE.txt)
+
 `pmtud-rs` is CLI for Path MTU Discovery.
 
 `pmtud-rs` sends ICMP Echo Request packets with DF bit.

@@ -14,6 +14,6 @@ fn main() {
 
     match mtu::discover(target) {
         Ok(mtu) => println!("MTU: {}", mtu),
-        Err(msg) => panic!(msg),
+        Err(msg) => panic!("ERR: {}", msg),
     };
 }
